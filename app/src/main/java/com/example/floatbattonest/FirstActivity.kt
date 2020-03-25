@@ -62,7 +62,7 @@ class FirstActivity : AppCompatActivity() {
 
                 itemView.setOnClickListener {
 
-                   // Log.d("Adapter", "setOnClickListener")
+                    Log.d("Adapter", "setOnClickListener")
                     val intent = Intent(c, WebViewActivity::class.java)
                     intent.putExtra("URL", urlModel.url)
                     startActivity(c, intent, null)

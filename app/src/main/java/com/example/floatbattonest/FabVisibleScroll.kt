@@ -40,6 +40,17 @@ class FabVisibleScroll(context: Context?, attrs: AttributeSet?):
         } else if (child.getVisibility() == View.INVISIBLE && dyConsumed < 0) {
             //child.show()
             Log.d(TAG, "show()")
+            Log.d(TAG, "show()")
+            Log.d(TAG, "show()")
+            Log.d(TAG, "show()")
+            Log.d(TAG, "show()")
+            Log.d(TAG, "qqqqqqshow()")
+            Log.d(TAG, "show()")
+            Log.d(TAG, "show()")
+
+
+
+
             child.show(object : OnVisibilityChangedListener() {
                 @SuppressLint("RestrictedApi")
                 override fun onShown(fab: FloatingActionButton) {
